@@ -10,7 +10,6 @@
  */
 
 //tested  github deployment 2
-
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
