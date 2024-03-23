@@ -30,7 +30,7 @@ define( 'DB_USER', 'pranit.dugad@gmail.com' );
 define( 'DB_PASSWORD', 'Pranit@7721851108' );
 
 /** Database hostname */
-define( 'DB_HOST', 'https://portfolio-pranit.wpcomstaging.com/' );
+define( 'DB_HOST', 'https://portfolio-pranit.wpcomstaging.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
