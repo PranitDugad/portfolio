@@ -9,7 +9,7 @@
  * @since Twenty Twenty-Two 1.0
  */
 
-//tested  github deployment 
+//tested  github deployment 2
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
