@@ -24,7 +24,7 @@
 define( 'DB_NAME', '150572843' );
 
 /** Database username */
-define( 'DB_USER', 'pranitdugad' );
+define( 'DB_USER', 'pranit.dugad@gmail.com' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'Pranit@7721851108' );
