@@ -21,16 +21,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', '150572843' );
+define( 'DB_NAME', 'local' );
 
 /** Database username */
-define( 'DB_USER', 'pranit.dugad@gmail.com' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Pranit@7721851108' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
-define( 'DB_HOST', 'https://portfolio-pranit.wpcomstaging.com/' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -49,15 +49,6 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          'Ey5@>zr?MR(:xoz)w(ZKQlReRy,cXL[@?,4$mwPvP+H|mp9N9Ali3#VuB>Tq{TY9' );
-define( 'SECURE_AUTH_KEY',   'hZ|]s>y+cEO7$4bqR~0=jK4z~PFt2_@RqKb4]bI2N<W}.=(i@qD$THTA|<-jop&S' );
-define( 'LOGGED_IN_KEY',     'eMK=)e-*]jL)mv}o.]#tOUJo+VnDDhjU4~~D5(^y&W7zNX4fuMj}rQ0~U`jtl9IM' );
-define( 'NONCE_KEY',         'xS@G%C;j2{zz06wOK<#js`p|8C&_u=7nkRs1Jx0gy]b0T>3SaXDdQCd*} 2dX$Gl' );
-define( 'AUTH_SALT',         '):pZ=v^)Mc%o5J!2ZOk:Mx+Ejt<tVpG&NC&`J~n+J#V[Gqty[87eOhU>kW5hj}eh' );
-define( 'SECURE_AUTH_SALT',  '9zb9UM5T[ppFHxT)Oq{&4o~=sSRaFQwWT/2o2ppNbVxh$|wY<$e]8Q#3@WOgMJ>?' );
-define( 'LOGGED_IN_SALT',    'QmNST}tJbywnoSG,3O9ySJ</V ~vp$vV/hijfp96_~nOMU_B,DRD,,>~dx[{d9(q' );
-define( 'NONCE_SALT',        '-z+e-k/%A<Jzd*YBb3<:(f2eU4G3c;r/q{nRA(t^<)_1MPDghfs#1oC:X!]`SChM' );
-define( 'WP_CACHE_KEY_SALT', 'n%$iga4[::uq>CqD.1{lgSj1l,L6jkPqY`[u2`5]2NppV,%g`{eT`/|Tv38k/tCY' );
 
 
 /**#@-*/
@@ -90,6 +81,16 @@ $table_prefix = 'wp_';
 if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
+
+
+define('AUTH_KEY',         'Eu/TUb1IhZULjkZZqZeecoMJxjRx1XFfF1qszBDjRTlS74z/l1opOsAJSXvpw8C2NSFj7+mpYkGhcixPUaXp3A==');
+define('SECURE_AUTH_KEY',  '6A3kttxgDvqzMypBEpBwXGxPGxgxDYr17+asrwHb04N00hv3Rp6abx4ra3vUNj9z3ZfkaVKvLsUW5Lyz5JiElg==');
+define('LOGGED_IN_KEY',    'EiTkY4KZsblu2ljwI7XNfjGZ+OW99iWpmbtb2hh8dY7g0cfHPP5ZAf51QuorYECThKC8ecAstDY3x8JKT7+wvw==');
+define('NONCE_KEY',        'rrFCxdFl/pVc2/RvbolgChWSspIj2X6hWCbxnBsCqQcPGnZG9lXZ4Ah3Vzh7OWgScXZ+MrhIzns7ry0HUdiuqg==');
+define('AUTH_SALT',        '9lXmRwKrvBmAeE7kbLyAh6ozdLPNyUXNDUV8VMzxQOz/VbkgLemLigjTvmiZN3Oz53uUuaKvjo6oyb6ok4UYng==');
+define('SECURE_AUTH_SALT', 'MjJ3Y6dYqCpmtcAjbXZ9b/OmtebQOmYtPNKUCXPJ+IqsFMrOVEL625Zw76k+V4uSQpYJrADPTODEosCBaUo4KQ==');
+define('LOGGED_IN_SALT',   '3wMSljJMhA+duKUMemCOYQJqDh7u0reAs1abvtDuE11qd+6mLY675v0Lm6+V6LUPeP6e9O5u8FZA/F8VP0J0+Q==');
+define('NONCE_SALT',       'K4CGq4W611w8Ycfa3UNh6uHS/LlajEcCbDuxK5nt2NUhz1kVse1uBdRh++3l+0xE8FO+nbuJ7GrUf/DzKErwuA==');
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
