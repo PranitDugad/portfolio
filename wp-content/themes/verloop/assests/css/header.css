@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 20px;
+  display: block;
+}
+
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.inner-header .nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.inner-header .nav-menu .navigation {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.inner-header .nav-menu .navigation li {
+  list-style: none;
+}
+
+.inner-header .nav-menu .navigation li a {
+  font-size: 18px;
+  color: #755a7d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.inner-header .nav-menu .navigation li a:hover {
+  color: violet;
+  transition: 0.1s;
+}
+.inner-header .nav-menu .header-buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: 25px;
+}
+.inner-header .nav-menu .header-buttons .signin-btn{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+}
+.inner-header .nav-menu .header-buttons .schedule-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inner-header .ham-menu {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  /*/*HEADER CSS*/
+  .inner-header .ham-menu {
+    display: flex;
+    cursor: pointer;
+  }
+  .inner-header .nav-menu  {
+    display: none;
+  }
+
+  .inner-header .nav-menu.active {
+    display: flex;
+  }
+
+  .inner-header .nav-menu .navigation {
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    background: white;
+    top: 120px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 25px 0 100px;
+    z-index: 999;
+  }
+  .inner-header .nav-menu .header-buttons {
+    margin-left: 0;
+    position: absolute;
+    top: 440px;
+    z-index: 99999;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+    /*/*HEADER CSS*/
+    .inner-header .ham-menu {
+      display: flex;
+      cursor: pointer;
+    }
+    .inner-header .nav-menu .navigation {
+      top: 120px;
+    }
+}

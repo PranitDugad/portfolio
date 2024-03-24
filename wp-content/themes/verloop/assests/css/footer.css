@@ -1,0 +1,150 @@
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer-inner {
+    padding: 50px 0 0 0;
+    border-top: 1px solid #f0e4f4;
+}
+
+.footer-main .clevr-section p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #755a7d;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin: 45px 0 80px 0;
+}
+
+.footer-main h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.footer-main .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-main .social-links i {
+    padding: 22px 15px;
+    border: 2px solid #f5eef8;
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: #ca8fdd;
+    margin: 30px 0;
+}
+
+.footer-main .social-links i:hover {
+    background-color: #8d28ad;
+    color: white;
+    transition: 0.2s;
+}
+
+.fa-brands.fa-youtube.fa-xl {
+    padding: 22px 10px;
+}
+
+.fa-brands.fa-twitter.fa-xl {
+    padding: 22px 12px;
+}
+
+.fa-brands.fa-linkedin.fa-xl {
+    padding: 24px 13px;
+}
+
+.fa-brands.fa-instagram.fa-xl {
+    padding: 22px 13px;
+}
+
+.footer-main ul li {
+    list-style: none;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #755a7d;
+    font-weight: 500;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.footer-main ul li:hover {
+    color: #000000;
+    transition: 0.1s;
+}
+
+.footer-main .subcribtion p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #755a7d;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-bottom: 45px;
+}
+
+.footer-main .subcribtion form input {
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    width: 280px;
+    height: 68px;
+    padding-left: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+.footer-main .subcribtion form input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    color: #a4a4a4;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.footer-main .subcribtion form button {
+    width: 121px;
+    height: 68px;
+    border-radius: 8px;
+    filter: drop-shadow(0px 7px 10px rgba(141, 40, 173, 0.15));
+    background-color: #8d28ad;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 2px solid #f3f3f3;
+    margin-top: 150px;
+}
+
+.footer-copyright h5 {
+    font-size: 14px;
+    color: #755a7d;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+@media screen and (max-width: 1200px) {
+    .footer-main .social-links {
+        gap: 15px;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
